@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="icon" href="./img/logo_cargo.png" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+        crossorigin="anonymous">
+        <title>Aeronex Cargo Turn-Key Solutions</title>
+    </head>
+    
+    <body>
+        <header>
+            <nav class="maxWidth navbar navbar-expand-lg navbar-light py-4">
+                <div class="container-fluid">
+                    <div class="logo"> <a href="/">
+              <img src="./img/logo_cargo.svg" alt="logo-aeronex">
+            </a>
+
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"> <i class="bi bi-list"></i>
+
+                    </button>
+                    <div class="mobile-menu collapse navbar-collapse justify-content-end"
+                    id="navbarSupportedContent">
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item"> <a data-nav="home" class="nav-link active" aria-current="page" href="/">
+        <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          Inicio
+        </span>
+      </a>
+
+                            </li>
+                            <li class="nav-item"> <a data-nav="about" class="nav-link">
+        <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          Quienes Somos
+        </span>
+      </a>
+
+                            </li>
+                            <li class="nav-item"> <a data-nav="services" class="nav-link" href="../OurServices.html">
+        <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          Nuestros Servicios
+        </span>
+      </a>
+
+                            </li>
+                            <li class="nav-item"> <a data-nav="OurTeam" class="nav-link">
+        <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          Nuestro Equipo
+        </span>
+      </a>
+
+                            </li>
+                            <li class="nav-item"> <a data-nav="contact" class="nav-link">
+        <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          Contáctenos
+        </span>
+      </a>
+
+                            </li>
+                            <li class="nav-item"> <a data-nav="AviationNews" class="nav-link">
+        <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          Noticias de Aviación
+        </span>
+      </a>
+
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">🇺🇸</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-links d-none d-lg-flex"> <a href="https://goo.gl/maps/dSsyDY7vYda25Adz7" target="_blank" rel="noopener noreferrer"
+                        class="d-flex align-items-center mx-3">
+                <i class="bi bi-geo-alt me-3"></i>
+                <div class="data-link">
+                  <p>Ubicación:</p>
+                  <p>8601 NW 27th Street, Suite 051-514119 Miami, FL, 33122 • USA</p>
+                </div>
+            </a>
+ <a href="tel:+7867241635" class="d-flex align-items-center mx-3">
+                <i class="bi bi-telephone me-3"></i>
+                <div class="data-link">
+                  <p>Teléfono:</p>
+                  <p>786 724 1635</p>
+                </div>
+            </a>
+ <a href="mailto:soledad@aeronexcargo.com" class="d-flex align-items-center mx-3">
+                <i class="bi bi-envelope me-3"></i>
+                <div class="data-link">
+                  <p>Email:</p>
+                  <p>soledad@aeronexcargo.com</p>
+                </div>
+            </a>
+
+                    </div>
+                </div>
+            </nav>
+            <section class="d-flex d-lg-none nav-buttons d-flex justify-content-between"> <a href="https://goo.gl/maps/dSsyDY7vYda25Adz7" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-geo-alt"></i>
+        </a>
+ <a href="#">
+            <i class="bi bi-telephone"></i>
+        </a>
+ <a href="#">
+            <i class="bi bi-envelope"></i>
+        </a>
+
+            </section>
+            <section class="d-none d-lg-block nav-desktop py-2">
+                <nav class="maxWidth">
+                    <ul class="ul-desk">
+                        <li> <a href="/" data-nav="home">Inicio</a>
+
+                        </li>
+                        <li> <a data-nav="about">Quiénes Somos</a>
+
+                        </li>
+                        <li> <a href="../OurServices.html" data-nav="services">Nuestros Servicios</a>
+
+                        </li>
+                        <li> <a data-nav="OurTeam">Nuestro Equipo</a>
+
+                        </li>
+                        <li> <a data-nav="contact">Contáctenos</a>
+
+                        </li>
+                        <li> <a data-nav="AviationNews">Noticias de Aviación</a>
+
+                        </li>
+                        <!-- <div class="dropdown" id="drop-main">
+        <a class=" dropdown-toggle drop-a1" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Noticias de Aviación
+        </a>
+        <ul style="width: 100%;" class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item drop-a2" href="https://news.flylinkers.com/" target="_blank" rel=”noopener noreferrer”>Flylinkers news</a></li>
+          <li><a class="dropdown-item drop-a2" href="https://aeronexllc.com" target="_blank" rel=”noopener noreferrer”>Aeronex LLC</a></li>
+        </ul>
+      </div> -->
+                        <li> <a href="#"><p>🇺🇸</p></a>
+
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <main class="container-fluid px-0">
+            <section class="about maxWidth">
+                <div class="row">
+                    <div class="about-container col-12 col-lg-6">
+                         <h3 class="mt-5">QUIÉNES SOMOS</h3>
+
+                        <p class="border-small"></p>
+                        <div class="about-text">
+                            <p>Aeronex Cargo es una compañía con sede en Miami y dirigida por el líder
+                                de la industria de aviación Patricio Sepúlveda, Ex Presidente de Lan Airlines
+                                y Ex Vicepresidente regional de IATA, quien se ha asociado con otros expertos
+                                y líderes del sector para la creación de un <strong>modelo de 
+          negocio de carga denominado “Solución de Carga - Llave 
+          en Mano” </strong> donde se maneja toda la logística requerida
+                                para transportar carga por vía aérea, marítima o terrestre.</p>
+                            <br>
+                            <p>Contamos con la <strong> certificación de calidad ISO 9001:2015</strong>,
+                                la cual demuestra nuestro compromiso con la estandarización de todos nuestros
+                                procesos y la mejora continua de los mismos.</p>
+                        </div>
+                        <div class="about-images">
+                            <div class="img-row d-flex justify-content-between align-items-center mb-3">
+                                <img class="img-2" src="./img/logo-veritas.jpeg" alt="logo-bereau">
+                                <img class="img-3" src="./img/about-image-3.png" alt="air">
+                            </div>
+                            <img class="img-1" src="./img/about-image-1.webp" alt="air">
+                        </div>
+                    </div>
+                    <div class="questions-container col-12 col-lg-6">
+                         <h3 class="mt-5">PREGUNTAS FRECUENTES</h3>
+
+                        <p class="border-small"></p>
+                        <div class="cards" id="cards-question-container">
+                            <!-- cards questions -->
+                        </div>
+                    </div>
+                </div>
+                <div class="our-history row mt-3">
+                    <div class="history col-12 col-lg-9">
+                         <h3 class="mt-5">NUENTRA HISTORIA</h3>
+
+                        <p class="border-small"></p>
+                        <P>Aeronex Cargo fue creada en junio del 2019 por Patricio Sepúlveda, como
+                            fundador y Camila Restrepo como co-fundadora. Quienes se asociaron con
+                            otros líderes de la industria para traer una solución integral para las
+                            aerolíneas comerciales de pasajeros que necesitan generar ingresos adicionales
+                            a través de la implementación de una unidad de carga totalmente externalizada
+                            bajo el modelo que se ha denominado “Turn-Key Cargo Solution”.</P>
+                        <p class="mt-4">Esta compañía surge de la identificación por parte de Patricio como asesor
+                            externo de JetBlue, de una necesidad puntual que tenía ésta aerolínea dada
+                            su decisión de cerrar la unidad de negocios de carga en el año 2015. En
+                            este momento Patricio propone a JetBlue un plan piloto para reabrir y mantener
+                            la operación carguera de la aerolínea sin que tuvieran que invertir recursos
+                            financieros, humanos y sobre todo sin que se viera afectada su operación.
+                            Generando así, una rentabilidad relevante para la aerolínea.
+                            <br>
+                            <p class="mt-4">Luego de finalizar el plan piloto con éxito, nace de manera oficial Aeronex
+                                Cargo, junto con la suscripción de un contrato a largo plazo con JetBlue
+                                para el manejo y administración exclusivo de su unidad de carga.</p>
+                        </p>
+                    </div>
+                    <div class="history-graphic col-12 col-lg-3">
+                        <!-- <img class="d-lg-none" src="./img/graphic-mobile.png" alt="">
+      <img class="d-none d-lg-block" src="./img/graphic-desk.png" alt=""> -->
+                        <div class="relevantData">
+                            <!-- <div class="container-1"> -->
+                            <div class="container-data">
+                                <div class="number">
+                                    <p>268</p>
+                                </div>
+                                <div class="text">
+                                    <p>Clientes</p>
+                                </div>
+                            </div>
+                            <div class="container-data">
+                                <div class="number">
+                                    <p>27.000</p>
+                                </div>
+                                <div class="text">
+                                    <p>Número de vuelos atendidos</p>
+                                </div>
+                            </div>
+                            <!-- </div> -->
+                            <div class="container-data">
+                                <div class="number">
+                                    <p>56 millones de toneladas</p>
+                                </div>
+                                <div class="text">
+                                    <p>Ton/KM Transportadas</p>
+                                </div>
+                            </div>
+                            <div class="container-data">
+                                <div class="number">
+                                    <p>0</p>
+                                </div>
+                                <div class="text">
+                                    <p>Número Incidentes (vuelos atrasados)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer text-center text-lg-start" id="contact">
+            <div class="maxWidth foter-container d-lg-flex justify-content-between">
+                <div class="logo-links">
+                    <div class="logo">
+                        <img src="./img/logo_cargo.svg" alt="logo-aeronex" " style="border-radius:
+                        3px; ">
+      </div>
+  
+      <div class="links-footer ">
+        <p>Para envíos de carga por medio de JetBlue</p>
+
+        <p>Customer Portal Tracking <br>
+          <a 
+            href="https://b6-icargo.ibsplc.aero/icargoportal/portal/loginFlow "
+            target="_blank " 
+            rel="noopener noreferrer ">
+            https://b6-icargo.ibsplc.aero/icargoportal
+          </a>
+        </p>
+  
+        <p>For flight schedule, please visit <br>
+          <a 
+            href="https://www.jetblue.com/help/cargo " 
+            target="_blank " 
+            rel="noopener noreferrer ">
+              https://www.jetblue.com/help/cargo
+          </a>
+        </p>
+      </div>
+    </div>
+  
+    <div class="contact-data ">
+      <h5>INFORMACIÓN DE CONTACTO</h5>
+      <p class="username ">Soledad Espinosa</p>
+  
+      <div class="user-contact ">
+        <div class="tel data ">
+          <i class="bi bi-telephone-fill "></i>
+          <a href="tel:+7867241635 ">786 724 1635</a>
+        </div>
+  
+        <div class="mail data ">
+          <i class="bi bi-envelope-fill "></i>
+          <a href="mailto:soledad@aeronexcargo.com ">soledad@aeronexcargo.com</a>
+        </div>
+  
+        <div class="social-networks ">
+          <p>SÍGUENOS</p>
+          <a href=" "><i class="bi bi-facebook me-1 "></i></a>
+          <a href=" "><i class="bi bi-instagram ms-1 "></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="contact-form ">
+      <form action=" " class="d-flex flex-column ">
+        <h3>CONTÁCTENOS</h3>
+        <input type="text " placeholder="Nombre " required>
+        <input type="email " name=" " id=" " placeholder="Email " required>
+        <input type="tel " name=" " id=" " placeholder="Teléfono " required>
+        <button type="submit ">ENVIAR</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="copy text-center " id="copyDate ">
+    Copyright <span>2023</span> | Todos los derechos reservados | Políticas de Privacidad | 
+  </div>
+
+</footer>
+<script src="./js/all.js "></script>
+<!-- <script type="text/javascript " src="./translateJs/translate.js " ></script> -->
+
+<script type="text/javascript " src="./Gmaps/maps.js " ></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<div class="container air-cargo p-3">
+  <div class="d-flex align-items-center flex-column flex-md-row justify-content-center">
+    <div class="hexagon-container">
+      <div class="hexagon">
+        <i class="bi bi-hexagon-fill">
+          <div class="hexagon-content">
+            <i class="bi bi-airplane-engines"></i>
+          </div>
+        </i>
+      </div>
+    </div>
+
+    <h2 class="title text-center text-md-start">Transporte de Carga aérea por medio de JetBlue:</h2>
+  </div>
+  <p class="air-cargo-text my-4 my-md-0 mb-md-3">
+    Ofrecemos el servicio de transporte de carga en 
+    las bodegas de los aviones de pasajeros de JetBlue, 
+    en 14 estaciones al interior de Estados Unidos y 
+    República Dominicana (Próximas estaciones 
+    internacionales: LIM, SJO, UIO, GYE, LHR y LGW).
+  </p>
+  <p class="air-cargo-text my-4 my-md-0 mb-md-3">
+    A continuación encontraras el tipo de carga 
+    aceptada, no aceptada y las condiciones 
+    y/o requerimientos de la carga para su 
+    transporte:
+  </p>
+
+  <div class="row container-cargo-cards px-md-5 mx-md-5">
+    <div class="col-12 col-lg-6">
+      <div class="row">
+        <div class="col-12 p-0">
+          <partial src="./components/OurServices/CardsServices/CargoAccepted.html"/>
+        </div>
+        <div class="col-12 p-0">
+          <partial src="./components/OurServices/CardsServices/JetBlueRequirements.html"/>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6">
+      <partial src="./components/OurServices/CardsServices/CargoNotAccepted.html"/>
+    </div>
+  </div>
+  <div class="container-cargo-cards">
+    <partial src="./components/OurServices/CardsServices/AirportsList.html"/>
+  </div>
+
+</div>

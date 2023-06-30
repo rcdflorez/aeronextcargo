@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="icon" href="./img/logo_cargo.png" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+        crossorigin="anonymous">
+        <title>Aeronex Cargo Turn-Key Solutions</title>
+    </head>
+    
+    <body>
+        <header>
+            <nav class="maxWidth navbar navbar-expand-lg navbar-light py-4">
+                <div class="container-fluid">
+                    <div class="logo"> <a href="/">
+              <img src="./img/logo_cargo.svg" alt="logo-aeronex">
+            </a>
+
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"> <i class="bi bi-list"></i>
+
+                    </button>
+                    <div class="mobile-menu collapse navbar-collapse justify-content-end"
+                    id="navbarSupportedContent">
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item"> <a data-nav="home" class="nav-link active" aria-current="page" href="/">
+        <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          Inicio
+        </span>
+      </a>
+
+                            </li>
+                            <li class="nav-item"> <a data-nav="about" class="nav-link">
+        <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          Quienes Somos
+        </span>
+      </a>
+
+                            </li>
+                            <li class="nav-item"> <a data-nav="services" class="nav-link" href="../OurServices.html">
+        <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          Nuestros Servicios
+        </span>
+      </a>
+
+                            </li>
+                            <li class="nav-item"> <a data-nav="OurTeam" class="nav-link">
+        <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          Nuestro Equipo
+        </span>
+      </a>
+
+                            </li>
+                            <li class="nav-item"> <a data-nav="contact" class="nav-link">
+        <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          Contáctenos
+        </span>
+      </a>
+
+                            </li>
+                            <li class="nav-item"> <a data-nav="AviationNews" class="nav-link">
+        <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          Noticias de Aviación
+        </span>
+      </a>
+
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">🇺🇸</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-links d-none d-lg-flex"> <a href="https://goo.gl/maps/dSsyDY7vYda25Adz7" target="_blank" rel="noopener noreferrer"
+                        class="d-flex align-items-center mx-3">
+                <i class="bi bi-geo-alt me-3"></i>
+                <div class="data-link">
+                  <p>Ubicación:</p>
+                  <p>8601 NW 27th Street, Suite 051-514119 Miami, FL, 33122 • USA</p>
+                </div>
+            </a>
+ <a href="tel:+7867241635" class="d-flex align-items-center mx-3">
+                <i class="bi bi-telephone me-3"></i>
+                <div class="data-link">
+                  <p>Teléfono:</p>
+                  <p>786 724 1635</p>
+                </div>
+            </a>
+ <a href="mailto:soledad@aeronexcargo.com" class="d-flex align-items-center mx-3">
+                <i class="bi bi-envelope me-3"></i>
+                <div class="data-link">
+                  <p>Email:</p>
+                  <p>soledad@aeronexcargo.com</p>
+                </div>
+            </a>
+
+                    </div>
+                </div>
+            </nav>
+            <section class="d-flex d-lg-none nav-buttons d-flex justify-content-between"> <a href="https://goo.gl/maps/dSsyDY7vYda25Adz7" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-geo-alt"></i>
+        </a>
+ <a href="#">
+            <i class="bi bi-telephone"></i>
+        </a>
+ <a href="#">
+            <i class="bi bi-envelope"></i>
+        </a>
+
+            </section>
+            <section class="d-none d-lg-block nav-desktop py-2">
+                <nav class="maxWidth">
+                    <ul class="ul-desk">
+                        <li> <a href="/" data-nav="home">Inicio</a>
+
+                        </li>
+                        <li> <a data-nav="about">Quiénes Somos</a>
+
+                        </li>
+                        <li> <a href="../OurServices.html" data-nav="services">Nuestros Servicios</a>
+
+                        </li>
+                        <li> <a data-nav="OurTeam">Nuestro Equipo</a>
+
+                        </li>
+                        <li> <a data-nav="contact">Contáctenos</a>
+
+                        </li>
+                        <li> <a data-nav="AviationNews">Noticias de Aviación</a>
+
+                        </li>
+                        <!-- <div class="dropdown" id="drop-main">
+        <a class=" dropdown-toggle drop-a1" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Noticias de Aviación
+        </a>
+        <ul style="width: 100%;" class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item drop-a2" href="https://news.flylinkers.com/" target="_blank" rel=”noopener noreferrer”>Flylinkers news</a></li>
+          <li><a class="dropdown-item drop-a2" href="https://aeronexllc.com" target="_blank" rel=”noopener noreferrer”>Aeronex LLC</a></li>
+        </ul>
+      </div> -->
+                        <li> <a href="#"><p>🇺🇸</p></a>
+
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <main class="container-fluid px-0 our-services">
+            <div class="sub-hero">
+                <div class="bg-blue">
+                     <h2 class="title">NUESTROS SERVICIOS</h2>
+
+                </div>
+            </div>
+            <section class="container">
+                <p class="services-text text-center m-auto my-4">Aquí encontrarás todos los servicios que actualmente prestamos, ya sea
+                    directamente o a través de nuestros aliados estratégicos:</p>
+                <div class="row">
+                    <div class="col-12 col-md-6 px-3 px-md-0 pe-md-3">
+                        <div class="business-model">
+                            <div class="d-flex align-items-center flex-column flex-md-row justify-content-start">
+                                <div class="hexagon-container">
+                                    <div class="hexagon"> <i class="bi bi-hexagon-fill">
+          <div class="hexagon-content">
+            <i class="bi bi-bag-check-fill"></i>
+
+                                    </div>
+                                    </i>
+                                </div>
+                            </div>
+                             <h2 class="title">Turn-Key Cargo Solution:</h2>
+
+                        </div>
+                        <div class="container-model mt-2">
+                            <p>Somos una empresa especializada en carga aérea y ofrecemos un modelo de
+                                negocio para que las aerolíneas de pasajeros de bajo costo puedan tener
+                                una unidad de negocios de carga aérea sin tener que invertir ni agregar
+                                complejidad a su operación.</p>
+                            <p class="my-3">El modelo que ofrecemos:</p>
+                            <p>Nosotros hacemos la administración completa del negocio de carga de la
+                                aerolínea y no se debe preocupar de:</p>
+                            <ul style="list-style: auto;" class="my-3">
+                                <li>La venta - optimización de ingresos.</li>
+                                <li>La logística de asistencia en tierra.</li>
+                                <li>Inversión en plataforma tecnológica de carga.</li>
+                                <li>La operación - optimización del manejo de la carga.</li>
+                                <li>La administración - recaudo y facturación - parte legal - contratos -
+                                    cumplimiento regulatorio.</li>
+                            </ul>
+                            <!-- <div class="map">
+      <img src="../img/map-businessModel.png" alt="">
+    </div> --></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 px-3 px-md-0 ps-md-3">
+                    <div class="advantages-model">
+                        <div>
+                             <h2 class="title">
+      <!-- Las ventajas de "nuestro modelo de 
+      socio / subcontratado" incluyen: -->
+      NUESTRO VALOR AGREGADO <br> VENTAJAS Y BENEFICIOS:
+    </h2>
+
+                        </div>
+                        <div class="cards mb-3" id="cards-services-question-container">
+                            <!-- <div class="card-question open" id="card-1">
+    <div class="header-card d-flex">
+        <p class="question-title p-3">Lorem ipsum dolor sit amet, consectetuer</p>
+        <button onclick="toggleResquest('card-1')"> <i class="bi bi-airplane-engines rotateIcon1"></i>
+
+        </button>
+    </div>
+    <div class="body-card">
+        <p class="p-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            tincidunt ut laoreet dolore magna aliquam.</p>
+    </div>
+</div> --></div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="container-air-cargo">
+                <div class="container air-cargo p-3">
+                    <div class="d-flex align-items-center flex-column flex-md-row justify-content-center">
+                        <div class="hexagon-container">
+                            <div class="hexagon"> <i class="bi bi-hexagon-fill">
+          <div class="hexagon-content">
+            <i class="bi bi-airplane-engines"></i>
+
+                            </div>
+                            </i>
+                        </div>
+                    </div>
+                     <h2 class="title text-center text-md-start">Transporte de Carga aérea por medio de JetBlue:</h2>
+
+                </div>
+                <p class="air-cargo-text my-4 my-md-0 mb-md-3">Ofrecemos el servicio de transporte de carga en las bodegas de los aviones
+                    de pasajeros de JetBlue, en 14 estaciones al interior de Estados Unidos
+                    y República Dominicana (Próximas estaciones internacionales: LIM, SJO,
+                    UIO, GYE, LHR y LGW).</p>
+                <p class="air-cargo-text my-4 my-md-0 mb-md-3">A continuación encontraras el tipo de carga aceptada, no aceptada y las
+                    condiciones y/o requerimientos de la carga para su transporte:</p>
+                <div
+                class="row container-cargo-cards px-md-5 mx-md-5">
+                    <div class="col-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-12 p-0">
+                                <ul class="d-lg-flex cargo-card">
+                                    <li class="d-flex align-items-center align-items-md-start flex-column flex-md-row justify-content-center">
+                                        <div class="hexagon-container">
+                                            <div class="hexagon"> <i class="bi bi-hexagon-fill">
+          <div class="hexagon-content">
+            <i class="bi bi-check-lg"></i>
+
+                                            </div>
+                                            </i>
+                                        </div>
+                            </div>
+                            <div class="cargo-data d-flex flex-column ms-3 justify-content-center">
+                                 <h4 data-text="cargo" class="my-md-3 mb-3 fw-bold fs-5 text-center text-md-start">Carga aceptada</h4>
+
+                                <div class="containter-data">
+                                    <p class="mb-2">Carga general y carga perecedera, tal como:</p>
+                                    <ul class="">
+                                        <li>Comida de mar</li>
+                                        <li>frutas</li>
+                                        <li>Vegetales</li>
+                                        <li>Plantas</li>
+                                        <li>Flores frescas</li>
+                                        <li>Pescado vivo</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 p-0">
+                            <ul class="d-lg-flex cargo-card">
+                                <li class="d-flex align-items-center align-items-md-start flex-column flex-md-row justify-content-center">
+                                    <div class="hexagon-container">
+                                        <div class="hexagon"> <i class="bi bi-hexagon-fill">
+          <div class="hexagon-content">
+            <i class="bi bi-box-seam"></i>
+
+                                        </div>
+                                        </i>
+                                    </div>
+                        </div>
+                        <div class="cargo-data d-flex flex-column ms-3 justify-content-center">
+                             <h4 data-text="cargo" class="my-md-3 mb-3 fw-bold fs-5 text-center text-md-start">
+        Requerimientos para el transporte de carga por JetBlue:
+      </h4>
+
+                            <div class="containter-data">
+                                <ul class="">
+                                    <li>Dimensiones máximas: 57x68x46 pulgadas</li>
+                                    <li>Máximo peso permitido por vuelo: 2,000 libras</li>
+                                    <li>Máximo peso permitido por pieza (Comida de Mar): 100 libras</li>
+                                    <li>Máximo peso permitido por pieza: 300 libras</li>
+                                    <li>Tiempo de entrega de la carga: 4 horas antes de la salida programada del
+                                        vuelo</li>
+                                    <li>Máximo valor declarado por guía aérea: USD$15,000.00</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <ul class="d-lg-flex cargo-card">
+                            <li class="d-flex align-items-center align-items-md-start flex-column flex-md-row justify-content-center">
+                                <div class="hexagon-container">
+                                    <div class="hexagon"> <i class="bi bi-hexagon-fill">
+          <div class="hexagon-content">
+            <i class="bi bi-x"></i>
+
+                                    </div>
+                                    </i>
+                                </div>
+                    </div>
+                    <div class="cargo-data d-flex flex-column ms-3 justify-content-center">
+                         <h4 data-text="cargo" class="my-md-3 mb-3 fw-bold fs-5 text-center text-md-start">Carga no aceptada</h4>
+
+                        <div class="containter-data">
+                            <ul class="">
+                                <li>Mercancías / Materiales Peligrosos en ninguna cantidad, incluso si son
+                                    cantidades limitadas o aceptables.</li>
+                                <li>Cualquier caja con etiqueta de peligro, independientemente del contenido.</li>
+                                <li>Equipo de motor que funcione con combustible (motosierras, generadores,
+                                    cortadoras de césped, lavadoras a presión, sopladoras, etc).</li>
+                                <li>Carga manifestada como “efectos personales” o “enseres domésticos).</li>
+                                <li>Carga de menos de 16 oz</li>
+                                <li>OAL AOG (Tendered directly from OAL).</li>
+                                <li>Carga envuelta en plástico retráctil, anillado o paletizada o ULD.</li>
+                                <li>Artículos de alto valor ($15,000 o más).</li>
+                                <li>Carga de alto riesgo / riesgo Elevado según lo definido por el AOSSP,
+                                    con excepción de los envíos de respuesta a emergencias federales.</li>
+                                <li>Artículos que no esté debidamente etiquetada.</li>
+                                <li>Artículos no aptos para el transporte (Ejemplo: Cajas con fijas, embalaje
+                                    endeble, etc).</li>
+                                <li>Carga aceptada de un operador de aeronaves de carga o de un transportista
+                                    aéreo de carga.</li>
+                                <li>Baterías de litio de cualquier tipo o tamaño.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </li>
+                    </ul>
+                    </div>
+                    </div>
+                    <div class="container-cargo-cards">
+                        <ul class="d-lg-flex cargo-card justify-content-center mb-0">
+                            <li class="d-flex align-items-center flex-column flex-md-row justify-content-center">
+                                <div class="hexagon-container">
+                                    <div class="hexagon"> <i class="bi bi-hexagon-fill">
+          <div class="hexagon-content">
+            <i class="bi bi-airplane-engines"></i>
+
+                                    </div>
+                                    </i>
+                                </div>
+                    </div>
+                    <div class="cargo-data d-flex flex-column ms-3 justify-content-center">
+                         <h4 data-text="cargo" class="my-md-3 fw-bold fs-5 text-center text-md-start">
+        Mercados y aeropuertos actualmente operados:
+      </h4>
+
+                    </div>
+                    </li>
+                    </ul>
+                    <div class="container-maps d-flex flex-column align-items-start justify-content-center">
+                        <div class="map north-america">
+                            <p style="font-weight: 700;" class="my-3">Norte América:</p>
+                            <!-- <ul class="ul-list">
+      <li>Los Ángeles, California - Aeropuerto Internacional de Los Ángeles - LAX</li>
+      <li>Las Vegas, Nevada - Aeropuerto Internacional McCarran - LAS</li>
+      <li>San Francisco, California - Aeropuerto Internacional de San Francisco - SFO</li>
+      <li>New Jersey, Newark - Aeropuerto Internacional Libertad de Newark - EWR</li>
+      <li>Tampa, Florida - Aeropuerto Internacional de Tampa - TPA</li>
+      <li>Orlando, Florida - Aeropuerto Internacional de Orlando - MCO</li>
+      <li>Fort Lauderdale, Florida - Aeropuerto Internacional de Fort Lauderdale - Hollywood - FLL</li>
+      <li>Atlanta, Georgia - Aeropuerto Internacional de Atlanta - ATL (Temporalmente suspendida)</li>
+      <li>Boston, Massachusetts- Aeropuerto Internacional Logan - BOS (Temporalmente suspendida)</li>
+      <li>New York, New York - Aeropuerto Internacional John F. Kennedy JFK (Temporalmente suspendida)</li>
+      <li>Miami, Florida - Aeropuerto Internacional de Miami - MIA</li>
+    </ul> -->
+                            <div class="container-img-services" id="container-map-1">
+                                <img src="./img/mapas-01.svg" alt="map-1" id="imagen-map-1">
+                                <div class="loupe" id="loupe-1"></div>
+                            </div>
+                        </div>
+                        <div class="map south-america">
+                            <p style="font-weight: 700;" class="my-3">Centro América y Sur América:</p>
+                            <!-- <ul class="ul-list">
+      <li>Santo Domingo, República Dominicana - Aeropuerto Internacional Las Américas - SDQ</li>
+      <li>Santo Domingo, República Dominicana - Aeropuerto Internacional Las Américas - SDQ</li>
+      <li>San Juan de Puerto Rico, Puerto Rico - Aeropuerto Internacional Luis Muñoz Marín - SJU</li>
+      <li>Quito, Ecuador - Aeropuerto Internacional Mariscal Sucre - UIO (Apertura próxima)</li>
+      <li>Guayaquil, Ecuador - Aeropuerto Internacional José Joaquín Olmedo - QYE (Apertura próxima)</li>
+      <li>Lima, Perú - Aeropuerto Internacional Jorge Chávez - LIM (Apertura próxima)</li>
+      <li>San José, Costa Rica - Aeropuerto Internacional Juan Santamaría - SJO (Apertura próxima)</li>
+    </ul> -->
+                            <div class="container-img-services" id="container-map-2">
+                                <img src="./img/mapas-02.svg" alt="map-2" id="imagen-map-2">
+                                <div class="loupe" id="loupe-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+            </section>
+            <section class="container container-tech">
+                <div class="row">
+                    <div class="col-12 col-md-7 p-md-0 d-flex flex-column justify-content-center">
+                        <div class="d-flex align-items-center flex-column flex-md-row">
+                            <div class="hexagon-container">
+                                <div class="hexagon"> <i class="bi bi-hexagon-fill">
+        <div class="hexagon-content">
+          <i class="bi bi-truck"></i>
+
+                                </div>
+                                </i>
+                            </div>
+                        </div>
+                         <h2 class="title mb-3 mb-md-0 text-center" style="max-width: 580px;">Soluciones Tecnológicas hechas a la medida de tu empresa:</h2>
+
+                    </div>
+                    <ul class="tech-list mt-md-3">
+                        <li class="d-flex"> <i class="bi bi-check-lg"></i>
+
+                            <p class="ps-3">Servicios de tracking de equipos de asistencia en tierra en aeropuertos
+                                (GSE Tracking)</p>
+                        </li>
+                        <li class="d-flex"> <i class="bi bi-check-lg"></i>
+
+                            <p class="ps-3">Servicios de integración tecnológica para reservas de carga.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-5 tech-img">
+                    <img src="./img/techSolutions.png" alt="tech-img">
+                </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer text-center text-lg-start" id="contact">
+            <div class="maxWidth foter-container d-lg-flex justify-content-between">
+                <div class="logo-links">
+                    <div class="logo">
+                        <img src="./img/logo_cargo.svg" alt="logo-aeronex" " style="border-radius:
+                        3px; ">
+      </div>
+  
+      <div class="links-footer ">
+        <p>Para envíos de carga por medio de JetBlue</p>
+
+        <p>Customer Portal Tracking <br>
+          <a 
+            href="https://b6-icargo.ibsplc.aero/icargoportal/portal/loginFlow "
+            target="_blank " 
+            rel="noopener noreferrer ">
+            https://b6-icargo.ibsplc.aero/icargoportal
+          </a>
+        </p>
+  
+        <p>For flight schedule, please visit <br>
+          <a 
+            href="https://www.jetblue.com/help/cargo " 
+            target="_blank " 
+            rel="noopener noreferrer ">
+              https://www.jetblue.com/help/cargo
+          </a>
+        </p>
+      </div>
+    </div>
+  
+    <div class="contact-data ">
+      <h5>INFORMACIÓN DE CONTACTO</h5>
+      <p class="username ">Soledad Espinosa</p>
+  
+      <div class="user-contact ">
+        <div class="tel data ">
+          <i class="bi bi-telephone-fill "></i>
+          <a href="tel:+7867241635 ">786 724 1635</a>
+        </div>
+  
+        <div class="mail data ">
+          <i class="bi bi-envelope-fill "></i>
+          <a href="mailto:soledad@aeronexcargo.com ">soledad@aeronexcargo.com</a>
+        </div>
+  
+        <div class="social-networks ">
+          <p>SÍGUENOS</p>
+          <a href=" "><i class="bi bi-facebook me-1 "></i></a>
+          <a href=" "><i class="bi bi-instagram ms-1 "></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="contact-form ">
+      <form action=" " class="d-flex flex-column ">
+        <h3>CONTÁCTENOS</h3>
+        <input type="text " placeholder="Nombre " required>
+        <input type="email " name=" " id=" " placeholder="Email " required>
+        <input type="tel " name=" " id=" " placeholder="Teléfono " required>
+        <button type="submit ">ENVIAR</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="copy text-center " id="copyDate ">
+    Copyright <span>2023</span> | Todos los derechos reservados | Políticas de Privacidad | 
+  </div>
+
+</footer>
+<script src="./js/all.js "></script>
+<!-- <script type="text/javascript " src="./translateJs/translate.js " ></script> -->
+
+<script type="text/javascript " src="./Gmaps/maps.js " ></script>
+</body>
+</html>

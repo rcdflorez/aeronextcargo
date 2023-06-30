@@ -1,0 +1,49 @@
+{
+  "name": "bootstrap5-boilerplate",
+  "version": "1.0.1",
+  "description": "Bootstrap 5+ boilerplate with Gulp4, cross-env, SaSS, sourcemaps, concat, CSS & HTML minification, uglify, image optimization, template partials, BrowserSync, ready for deployment.",
+  "author": "Sal",
+  "license": "MIT",
+  "homepage": "https://bootstrapstarter.com/bootstrap-templates/template-basic-bootstrap5-html/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wowthemesnet/bootstrap5-boilerplate.git"
+  },
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp serve",
+    "prod": "cross-env NODE_ENV=prod gulp"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/stream": "^2.0.0",
+    "bootstrap": "5.0.0-beta3",
+    "browser-sync": "^2.26.3",
+    "cross-env": "^7.0.2",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-html-partial": "^1.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-js-import": "^1.0.6",
+    "gulp-rollup-2": "^1.3.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^2.0.1",
+    "gulp-uglify": "^3.0.2",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "@google/markerclustererplus": "^5.1.3",
+    "@googlemaps/js-api-loader": "^1.15.1",
+    "i18next": "^20.6.1",
+    "popper.js": "^1.16.1",
+    "rollup": "^2.77.0",
+    "sass": "^1.49.8"
+  }
+}

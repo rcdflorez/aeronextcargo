@@ -1,0 +1,121 @@
+footer{
+  padding: 1rem 0;
+  padding-top: 2rem;
+  padding-bottom: 0;
+  background-color: #2843a0;
+  color: #fff;
+
+  .links-footer{
+    p:first-child{
+      font-weight: 700;
+    }
+    padding: 1rem 0;
+    p{
+      margin: .5rem 0;
+      a{
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+  
+  .contact-data{
+    h5, .username{
+      font-weight: 700;
+      margin-bottom: .5rem;
+    }
+    h5{
+      margin-bottom: 1rem;
+    }
+    i{
+      margin-right: .5rem;
+      font-size: 20px;
+    }
+    .data{
+      margin: 1rem 0;
+    }
+    a{
+      color: #fff;
+      text-decoration: none;
+    }
+    .social-networks{
+      padding: 1rem 0;
+      i{
+        color: #fff;
+        font-size: 28px;
+        margin: 1rem 0;
+      }
+    }
+  }
+
+  .contact-form{
+    padding: 1rem;
+    form{
+      h3{
+        font-weight: 700;
+        text-align: start;
+      }
+      input{
+        margin: .5rem 0;
+        padding: .5rem;
+      }
+      input::placeholder{
+        color: #000;
+        font-weight: 600;
+      }
+      button{
+        width: fit-content;
+        background-color: #d42a25;
+        color: #fff;
+        border: none;
+        padding: 0.2rem 2rem;
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin: 1rem 0;
+      }
+    }
+  }
+
+  .copy{
+    padding: .5rem;
+    background-color: #182a69;
+    font-size: 12px;
+  }
+}
+
+@media screen and(min-width:992px){
+  footer{
+    .foter-container{
+      padding:  2rem;
+    }
+    padding-bottom: 0;
+
+    .links-footer{
+      p{
+        font-weight: 600;
+        a{
+          font-weight: normal;
+        }
+      }
+    }
+
+    .contact-data{
+      h5{
+        font-size: 16px;
+      }
+      .username{
+        font-weight: 500;
+      }
+    }
+
+    .contact-form{
+      padding: 0;
+      min-width: 350px;
+      
+      h3{
+        font-size: 16px;
+      }
+    }
+
+  }
+}

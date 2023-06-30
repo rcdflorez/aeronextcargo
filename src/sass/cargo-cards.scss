@@ -1,0 +1,191 @@
+.cargo-cards{
+  a{
+    text-decoration: none;
+    color: #D42B24;
+    font-weight: 600;
+  }
+  
+  .aviation-container{
+    margin: 2rem 1rem;
+    border: 2px solid #2B40A4;
+    h3{
+      color: #2B40A4;
+      font-weight: 700;
+    }
+    
+  
+    .aviation-container-text{
+      line-height: 16px;
+      color: #8e8e8e;
+    }
+  
+    .link{
+      margin: 1rem 0;
+    }
+  }
+  
+  .cargo{
+
+    .data-card{
+      overflow: auto;
+      max-height: 130px;
+      margin: 1rem 0;
+    }
+    ul.ul-services{
+      color: #8e8e8e;
+      line-height: 16px;
+      list-style:disc;
+      
+      li{
+        margin: .3rem 0;
+        display: revert;
+      }
+    }
+    ul{
+      padding: 0 1rem;
+      margin: 0;
+      list-style: none;
+      li{
+        display: flex;
+        transition: all .25s ease-in-out;
+        cursor: pointer;
+        justify-content: center;
+        // .hexagon-container{
+        //   position: relative;
+        //   .hexagon{
+        //     // rotate: 90deg;
+        //     font-size: 80px;
+        //     // color: #D42B24;
+        //     color: #D42B24a6;;
+        //   }
+        //   .hexagon-content{
+        //     font-size: 50px;
+        //     position: absolute;
+        //     top: calc(50% - 40px);
+        //     left: 20%;
+        //     color: #fff;
+        //     rotate: -90deg;
+        //   }
+        // }
+        // i::before{
+        //   rotate: 90deg;
+        // }
+        .cargo-data{
+          margin: 1rem 0;
+          // padding-left: 1rem;
+          // text-align: justify;
+          
+          h4{
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+          }
+          p{
+            line-height: 16px;
+            color: #8e8e8e;;
+          }
+        }
+       
+        
+      }
+      li:hover{
+        box-shadow: 4px 4px 9px 0px #b7b7b7;
+        background-color: #f9f9f9;
+        translate: -5px -5px;
+      }
+    }
+  }
+
+  .box-cargo-data{
+    border: 1px solid #cdcdcd;
+    background-color: #f9f9f9;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    height: 480px;
+    overflow: auto;
+    margin-bottom: 3rem;
+  }
+
+  .box-active{
+    box-shadow: 4px 4px 9px 0px #b7b7b7;
+    background-color: #f9f9f9;
+    translate: -5px -5px;
+    padding: 0 .25rem;
+    .hexagon{
+      color: #D42B24 !important;
+    }
+  }
+
+  .bookings{
+    background-color: #2B40A4;
+    color: #fff;
+    p{
+      font-weight: 600;
+      font-size: 16px;
+     
+    }
+    .link{
+      margin: 1rem 0;
+      a{
+        color: #fff;
+        background-color: #D42B24;
+        padding: .5rem 1rem;
+      }
+    }
+  }
+}
+
+@media screen and(min-width:992px){
+  .cargo-cards{
+    .cards{
+      padding: 3rem 0;
+    }
+
+    .aviation-container{
+      margin: 0 1rem;
+      height: 100%;
+    }
+    .cargo{
+      ul{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li{
+          width: calc(95% / 4);
+          display: flex;
+          flex-direction: column;
+          border-radius: 5px;
+          padding: .5rem;
+          margin-bottom: 1rem;
+          .hexagon-container{
+            .hexagon{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              line-height: 0;
+            }
+            .hexagon-content{
+              top: calc(50% - 25px);
+              left: 20%;
+            }
+          i{
+            position: relative;
+          }
+          }
+          // i::before{
+          //   // rotate: 90deg;
+          // }
+          // .cargo-data{
+          //   // padding: 0;
+          // }
+          
+        }
+        
+        
+      }
+    }
+    .box-cargo-data{
+      height: 250px;
+    }
+  }
+  
+}

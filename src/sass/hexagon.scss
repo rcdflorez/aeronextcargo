@@ -1,0 +1,18 @@
+.hexagon-container{
+  position: relative;
+  .hexagon{
+    font-size: 80px;
+    color: #D42B24a6;;
+  }
+  .hexagon-content{
+    font-size: 50px;
+    position: absolute;
+    top: calc(50% - 40px);
+    left: 20%;
+    color: #fff;
+    rotate: -90deg;
+  }
+  i::before{
+    rotate: 90deg;
+  }
+}

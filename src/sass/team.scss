@@ -1,0 +1,81 @@
+.our-team{
+  .hidden{
+    display: none;
+  }
+  .container-team{
+    padding: 1rem;
+    h3{
+      color: #2B40A4;
+      font-weight: 700;
+    }
+    .text-team{
+      color: #8e8e8e;
+      line-height: 16px;
+      text-align: justify;
+      margin-bottom: 2rem;
+    }
+  }
+  .employee{
+    max-width: 300px;
+    height: 333px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+
+    .hexagon-container{
+      font-size: 200px;
+      line-height: 0;
+      color: gray;
+      rotate: 90deg;
+      .hexagon{
+        font-size: inherit;
+        color: #cacaca;
+        
+        .hexagon-content{
+          top: calc(50% - 75px);
+          z-index: 1000;
+          color: #fff;
+          font-size: 100px;
+          height: 150px;
+          width: 150px;
+          left: calc(50% - 75px);
+          img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center top;
+          }
+        }
+      }
+    }
+    .employee-name{
+      color: #2243AB;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .employment-name{
+      font-weight: 600;
+      margin-bottom: .5rem;
+    }
+    .employee-description{
+      color: #8e8e8e;
+      line-height: 16px;
+    }
+  }
+  .carousel-indicators [data-bs-target]{
+    background-color: #161c32;
+  }
+}
+
+@media screen and(min-width:992px){
+  .our-team{
+    .hidden{
+      display: contents;
+    }
+  }
+}
